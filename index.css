@@ -1,0 +1,210 @@
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.manual-lead-processing {
+  align-self: stretch;
+  position: relative;
+  line-height: 40px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+
+
+.manual-lead-processing.animate {
+  animation: 1s ease 0.2s 1 normal forwards slide-in-top;
+}
+.the-sales-team-container.animate {
+  animation: 1s ease 0.3s 1 normal forwards slide-in-bottom;
+}
+.we-would-have-container.animate {
+  animation: 1s ease 0.5s 1 normal forwards slide-in-bottom;
+}
+.stephen-powers-vice.animate {
+  animation: 1s ease 0.7s 1 normal forwards slide-in-bottom;
+}
+.kia-icon.animate {
+  animation: 1s ease 0.9s 1 normal forwards slide-in-bottom;
+}
+.we-would-have-our-best-salespe-parent.animate {
+  animation: 1.5s ease 0.2s 1 normal forwards slide-in-bottom;
+}
+
+
+
+
+
+.the-sales-team {
+  margin: 0;
+}
+.the-sales-team-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.manual-lead-processing-creates-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.we-would-have-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 40px;
+  font-weight: 300;
+  font-family: inherit;
+  opacity: 0;
+}
+
+.stephen-powers-vice {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.kia-icon {
+  position: relative;
+  width: 145px;
+  height: 55.47px;
+  opacity: 0;
+}
+
+.stephen-powers-vice-president-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #18003b;
+}
+.we-would-have-our-best-salespe-parent {
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: #efeff1;
+  padding: 52px 78px;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  opacity: 0;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: #4e2886;
+}
+
+.frame-parent,
+.kia-2nd,
+.we-would-have-our-best-salespe-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frame-parent {
+  width: 1172px;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+  font-size: 36px;
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+.kia-2nd {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+  padding: var(--padding-11xl) 114px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 1200px) {
+  .the-sales-team-container {
+    font-weight: 300;
+    font-family: var(--font-raleway);
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .manual-lead-processing-creates-parent {
+    gap: var(--gap-11xl);
+  }
+  .we-would-have-container {
+    font-weight: 200;
+    font-family: var(--font-raleway);
+    font-size: var(--font-size-9xl);
+    line-height: 36px;
+  }
+  .we-would-have-our-best-salespe-parent {
+    gap: 20px;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    align-self: stretch;
+    width: auto;
+    gap: 60px;
+  }
+  .kia-2nd {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .manual-lead-processing {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .the-sales-team-container {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .manual-lead-processing-creates-parent {
+    gap: 15px;
+  }
+  .we-would-have-container {
+    font-size: var(--font-size-3xl);
+    line-height: 30px;
+  }
+  .we-would-have-our-best-salespe-parent {
+    gap: 22px;
+    padding: var(--padding-11xl) 20px;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 35px;
+  }
+  .kia-2nd {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+}
